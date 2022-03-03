@@ -97,7 +97,7 @@ main{
     margin-right: 30%;
 }
 
-/* footer */
+/* last part */
 .footer {
     height: 180px;
     color: black;
@@ -128,7 +128,38 @@ main{
 
 /*------------------------------------
 Doing responsive by using media query 
+for mobile and tablet
 -------------------------------------*/
+/* For mobile devices */
 @media only screen and (max-width:688px){
-    
+    .top-part{
+        padding-bottom: 250px;
+    }
+    .players, main{
+        grid-template-columns: 1fr;
+    }
+    .live-part img{
+        width: 80%;
+    }
+    .copa-part, .cup-part{ 
+        grid-template-columns: 1fr;
+        
+    }   
+}
+/* For tablet devices */
+@media only screen and (min-width: 688px) and (max-width: 992px){
+    .top-part{
+        padding-bottom: 70px;
+    }
+    .players, main{
+        grid-template-columns: 2fr 2fr;
+        padding-right: 20px;
+    }
+    .live-part img{
+        width: 80%;
+    }
+    .copa-part, .cup-part{
+        grid-template-columns: 1fr;
+        
+    }
 }
