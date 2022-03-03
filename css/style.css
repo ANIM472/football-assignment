@@ -1,3 +1,87 @@
-h1{
-    color: red;
+/*font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Basic styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+/* copa live matches style */
+.top-part{
+    background-color:#2D25A0;
+    height: 677px;
+    margin-bottom: 70px;
+}
+.copa-part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 20%;
+    padding-top: 5%;
+}
+.copa-title{
+    font-weight: bold;
+    font-size: 64px;
+    color: white;
+}
+.live-button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 24px;
+}
+.filled{
+    color: white;
+    margin-left: 5px;
+}
+.live-part p{
+    color: #6C6C6C;
+}
+.live-part img{
+    width: 556.01px;
+    height: 438px;
+}
+
+/* players style */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    margin-bottom: 70px;
+}
+.player{
+    padding: 15px;
+width: 330px;
+height: 474px;
+background: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+}
+.about-player img{
+    width: 300px;
+    height: 256px;
+    padding-left: 15px;
+}
+.about-player p{
+    color: #6C6C6C;
+}
+
+.cup-part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 20%;
+    padding-top: 5%;
+    margin-bottom: 70px;
+}
+.copa-cup-title{
+    font-weight: bold;
+    font-size: 64px;
+    color: black;
 }
